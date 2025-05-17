@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f9;
+  padding: 20px;
+}
+#chat-box {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 12px;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+input, button {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+}
+button:hover {
+  background: #0056b3;
+}
