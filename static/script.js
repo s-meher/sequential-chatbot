@@ -17,7 +17,7 @@ async function sendMessage() {
     chatBox.innerHTML += `<p><strong>Bot:</strong> ${data.response}</p>`;
     chatBox.scrollTop = chatBox.scrollHeight;
   } catch (err) {
-    chatBox.innerHTML += `<p><strong>Bot:</strong> Sorry! Server issue.</p>`;
+    chatBox.innerHTML += `<p><strong>Bot:</strong> Error contacting server.</p>`;
   }
 
   document.getElementById("user-input").value = "";
