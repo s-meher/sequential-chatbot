@@ -1,21 +1,24 @@
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
+  padding: 40px;
   background: #f4f4f9;
-  padding: 20px;
+}
+h2 {
+  color: #2c3e50;
 }
 #chat-box {
   background: #fff;
   border: 1px solid #ccc;
-  padding: 12px;
+  padding: 15px;
   height: 300px;
   overflow-y: auto;
-  margin-bottom: 12px;
-  border-radius: 6px;
+  margin-bottom: 10px;
+  border-radius: 8px;
 }
 input, button {
   padding: 10px;
-  font-size: 14px;
-  border-radius: 4px;
+  font-size: 16px;
+  border-radius: 6px;
 }
 button {
   background: #007bff;
