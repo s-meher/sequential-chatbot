@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <title>Sequential EdTechBot</title>
+  <title>GPT-2 Chatbot</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-  <h1>🎓 Chat with Sequential EdTechBot</h1>
+  <h2>💬 GPT-2 Sequential Chatbot</h2>
   <div id="chat-box"></div>
-  <input id="user-input" type="text" placeholder="Ask something...">
+  <input id="user-input" type="text" placeholder="Ask something..." />
   <button onclick="sendMessage()">Send</button>
   <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
